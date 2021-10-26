@@ -310,7 +310,7 @@ header {
 .awesome-feature-icon i {
     background-color: #f5f7fa;
     border-radius: 60px;
-    color: #4c5462;
+    color: #000000;
     display: inline-block;
     font-size: 24px;
     height: calc(100% - 2px);
