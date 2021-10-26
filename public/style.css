@@ -77,7 +77,7 @@ header {
     width: 85%;
 }
 .navbar-nav li a {
-  color: #fff;
+  color: rgb(7, 7, 7);
   font-size: 16px;
   font-weight: 600;
   padding: 20px;
@@ -88,7 +88,7 @@ header {
   opacity: 0.6;
 }
 .navbar-nav li a.download-btn {
-  border: 1px solid #fff;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   margin-top: 10px;
   padding: 8px 30px;
@@ -111,7 +111,7 @@ header {
   height: 100vh;
   z-index: 1;
   position: relative;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .parallax {
   background-attachment: fixed;
@@ -130,12 +130,12 @@ header {
   height: 100%;
 }
 .slider h1 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
   text-transform: capitalize;
 }
 .slider p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   margin: 0 0 35px;
   padding-right: 28%;
@@ -148,8 +148,8 @@ header {
 }
 .hero-btn {
   background: #cfb12c none repeat scroll 0 0;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 4px #0000;
+  color: rgb(0, 0, 0);
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -163,7 +163,7 @@ header {
 }
 .hero-btn:hover, .about-content > .hero-btn:hover {
   background-color: #d3c015;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 .hero-text p.he-p {
@@ -245,11 +245,11 @@ header {
   margin: 0 0 25px;
 }
 .about-content > .hero-btn {
-  background: #cfb12c none repeat scroll 0 0;
+  background: #ad931e none repeat scroll 0 0;
   border-radius: 4px;
-  box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
-  -webkit-box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
-  -moz-box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
+  box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
+  -webkit-box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
+  -moz-box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -553,11 +553,11 @@ header {
   top: 0;
   width: 155px;
   transition:.3s;
-  box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
-  -moz-box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
+  box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  -moz-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
 }
-.subcribe-form button:hover{background:#F55160;}
+.subcribe-form button:hover{background:#f39529;}
 
 /* Mail Chimp */
 .mailchimp-alerts {margin-top: 15px;}
@@ -597,9 +597,9 @@ header {
 .btn-contact-bg {
   background: #cfb12c none repeat scroll 0 0;
   border-radius: 5px;
-  box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
+  box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
   color: #fff;
   display: inline-block;
   font-size: 15px;
@@ -789,7 +789,7 @@ margin:0;
 
 /* ============= 21. ScrollUp ============= */
 #scrollUp {
-  background: #fab357 none repeat scroll 0 0;
+  background: #be7e1d none repeat scroll 0 0;
   border-radius: 0px;
   bottom: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
