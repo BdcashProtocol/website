@@ -1,0 +1,114 @@
+<!-- Copyright Area Start -->
+		<div class="copyright-area bg-7 ptb-65">
+			<div class="container">
+				<!-- Contact address left -->
+				<div class="row">
+					<div class="conct-border two">
+						<div class="col-md-4 col-sm-4">
+							<div class="single-address">
+								<div class="media">
+									<div class="media-left">
+										<i class="icofont icofont-phone"></i>
+									</div>
+									<div class="media-body text-center">
+										<p>+012 345 678 102 <br> +012 345 678 102</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="single-address">
+								<div class="media">
+									<div class="media-left">
+										<i class="icofont icofont-web"></i>
+									</div>
+									<div class="media-body text-center">
+										<p>urname@email.com <br> urwebsitenaem.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="single-address">
+								<div class="media">
+									<div class="media-left">
+										<i class="icofont icofont-social-google-map"></i>
+									</div>
+									<div class="media-body text-center">
+										<p>ur address goes here, <br> street,Crossroad123.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Contact address left -->
+				<!-- Copyright right -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright-area text-center">
+							<!-- Copyright social -->
+							<div class="contact-social text-center pt-70 pb-35">
+								<ul>
+									<li>
+										<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icofont icofont-social-vimeo"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+									</li>
+								</ul>
+							</div>
+							<!-- Copyright social -->
+							<div class="copyright-text">
+								<p>Copyright &copy;  <a href="#"> Bdcash Protoco project. </a> All Rights Reserved.</p>
+							</div>
+							<!-- Copyright text -->
+						</div>
+					</div>
+				</div>
+				<!-- Copyright right -->
+			</div>
+		</div>
+		<!-- Copyright Area End -->
+		
+		<!-- all js here -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+		<script src="js/slick.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<!-- map js -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+		<script>
+			/*START CONTACT MAP JS*/
+			function initialize() {
+			  var mapOptions = {
+				zoom: 12,
+				scrollwheel: false,
+				center: new google.maps.LatLng(43.538263, -80.305922)
+			  };
+			  var map = new google.maps.Map(document.getElementById('map'),
+				  mapOptions);
+			  var marker = new google.maps.Marker({
+				position: map.getCenter(),
+				icon: 'img/icon/map-icon.png',
+				map: map
+			  });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);	
+		   /*END CONTACT MAP JS*/
+		</script>
+    </body>
+
+</html>
