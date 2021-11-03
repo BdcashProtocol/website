@@ -23,7 +23,7 @@ app.use(express.static('./public'));
 
 app.use('/', indexRouter);
 app.use('/about', indexRouter);
-app.use('/team', indexRouter);
+app.use('/home', indexRouter);
 app.use('/contact', indexRouter);
 //app.use('/users', usersRouter);
 
