@@ -8,18 +8,28 @@ router.get('/', function(req, res, next) {
   description: ' - Home page'
   });
 });
-router.get('/home', function(req, res, next) {
-	res.render('index', { 
+
+/* GET team page */
+router.get('/team', function(req, res, next) {
+	res.render('team', { 
 	title: 'Bdcash Protocol',
-	description: ' - Home page'
+	description: ' - Our Team and contributors'
 	});
   });
+
+ /* GET download page */
+router.get('/donwload', function(req, res, next) {
+	res.render('donwload', { 
+	title: 'Bdcash Protocol',
+	description: ' - Donwloads your wallets app.'
+	});
+  }); 
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
   res.render('about', {
 	  title: 'Bdcash Protocol',
-	  description: ' -About project'
+	  description: ' - About project'
 	  });
 });
 
@@ -30,5 +40,6 @@ router.get('/contact', function(req, res, next) {
 	  description: ' - Send your feedback or question'
 	  });
 });
+
 
 module.exports = router;
