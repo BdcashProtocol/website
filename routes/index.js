@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { 
-  title: 'Bdcash Protocol',
+  title: 'BDCash Protocol',
   description: ' - Home page'
   });
 });
@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 /* GET team page */
 router.get('/team', function(req, res, next) {
 	res.render('team', { 
-	title: 'Bdcash Protocol',
+	title: 'BDCash Protocol',
 	description: ' - Our Team and contributors'
 	});
   });
@@ -20,7 +20,7 @@ router.get('/team', function(req, res, next) {
  /* GET download page */
 router.get('/donwload', function(req, res, next) {
 	res.render('donwload', { 
-	title: 'Bdcash Protocol',
+	title: 'BDCash Protocol',
 	description: ' - Donwloads your wallets app.'
 	});
   }); 
@@ -28,7 +28,7 @@ router.get('/donwload', function(req, res, next) {
 /* GET about page. */
 router.get('/about', function(req, res, next) {
   res.render('about', {
-	  title: 'Bdcash Protocol',
+	  title: 'BDCash Protocol',
 	  description: ' - About project'
 	  });
 });
@@ -36,7 +36,7 @@ router.get('/about', function(req, res, next) {
 /* GET about page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
-	  title: 'Bdcash Protocol ',
+	  title: 'BDCash Protocol',
 	  description: ' - Send your feedback or question'
 	  });
 });
