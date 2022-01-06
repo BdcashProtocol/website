@@ -34,11 +34,27 @@ router.get('/about', function(req, res, next) {
 	  });
 });
 
-/* GET about page. */
+/* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
 	  title: 'BDCash Protocol',
 	  description: ' - Send your feedback or question'
+	  });
+});
+
+/* GET Roadmap page. */
+router.get('/roadmap', function(req, res, next) {
+  res.render('roadmap', {
+	  title: 'BDCash Protocol',
+	  description: ' - Check all goals future for project'
+	  });
+});
+
+/* GET Market page. */
+router.get('/markets', function(req, res, next) {
+  res.render('markets', {
+	  title: 'BDCash Protocol',
+	  description: ' - Get link to all markets bdcash'
 	  });
 });
 

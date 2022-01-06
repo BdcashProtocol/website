@@ -25,6 +25,8 @@ app.use('/', indexRouter);
 app.use('/about', indexRouter);
 app.use('/donwload', indexRouter);
 app.use('/team', indexRouter);
+app.use('/roadmap', indexRouter);
+app.use('/markets', indexRouter);
 app.use('/contact', indexRouter);
 //app.use('/users', usersRouter);
 
