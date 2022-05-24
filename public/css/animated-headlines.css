@@ -285,7 +285,7 @@ xtype
   transform: translateY(-50%);
   height: 90%;
   width: 1px;
-  background-color: #fff;
+  background-color: rgb(5, 2, 15);
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
@@ -293,7 +293,7 @@ xtype
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color: #aebcb9;
+  background-color: #b0a5d8;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;

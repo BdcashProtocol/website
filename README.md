@@ -1,4 +1,4 @@
-# Website Bdcash Protocol 
+# Website BDCashProtcol Ecosystem 
 
 <img src="https://raw.githubusercontent.com/BdcashProtocol/website/main/public/img/logo.png">
 
@@ -16,4 +16,6 @@ Thanks all contributors.
 
 ## Donation:
 
-BDCASH: 
+COntributors: 
+
+Clone this repository after this, build changes and commit for revision.

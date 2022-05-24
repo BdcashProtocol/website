@@ -39,21 +39,21 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
 }
 img{
    max-width: 100%;
 }
 a:focus,
 a:hover {
-    color: #14b1bb;
+    color: #8a58db;
     text-decoration: none;
 }
 a,
 button,
 input {
     outline: medium none;
-    color: #383838;
+    color: #fcf6f6;
 }
 h1,
 h2,
@@ -63,7 +63,7 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    color: #3e3e3e;
+    color: #f5f0f0;
     margin-top: 0px;
     font-style: normal;
     font-weight: 400;
@@ -101,9 +101,11 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-li { list-style: none;display:inline-block; }
+li { 
+    list-style: none;
+ }
 p {
-  color: #070707;
+  color: #faf6f6;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -119,7 +121,7 @@ hr{
 label {
     font-size: 15px;
     font-weight: 400;
-    color: #626262;
+    color: #f8f8f8;
 }
 *::-moz-selection {
     background: #4fc1f0;
@@ -165,7 +167,7 @@ label {
 .text-white { color: #fff ;}
 .text-black { color: #363636; }
 .text-theme { color: #f10; }
-.text-white h1, .text-white p, .text-white h2{ color: #fff; }
+.text-white h1, .text-white p, .text-white h2{ color: rgb(255, 255, 255); }
 .text-white { color: #fff; }
 .text-black { color: #363636 ;}
 .text-theme { color: #f10; }
@@ -177,27 +179,27 @@ label {
 
 /* ============= 5. Input Css ============= */
 input {
-    background: #eceff8;
-    border: 2px solid #eceff8;
+    background: #8737ac;
+    border: 2px solid #39065c;
     height: 45px;
     box-shadow: none;
     padding-left: 10px;
     font-size: 14px;
-    color: #626262;
+    color: #fcfcfc;
     width: 100%;
 }
 select {
     width: 100%;
-    background: #eceff8;
-    border: 2px solid #eceff8;
+    background: #3e0664;
+    border: 2px solid #3e0664;
     height: 45px;
     padding-left: 10px;
     box-shadow: none;
     font-size: 14px;
-    color: #626262;
+    color: #f8f8f8;
 }
 option {
-    background: #fff;
+    background: #380568;
     border: 0px solid #626262;
     padding-left: 10px;
     font-size: 14px;
@@ -208,8 +210,8 @@ input:focus {
 }
 textarea {
     resize: vertical;
-    background: #eceff8;
-    border: 2px solid #eceff8;
+    background: #380568;
+    border: 2px solid #380568;
     padding: 10px;
     width: 100%;
     font-size: 14px;
@@ -220,7 +222,7 @@ textarea:focus {
     outline: none;
 }
 ::-moz-placeholder {
-    color: #444;
+    color: rgb(228, 195, 236);
     font-size: 13px;
 }
 
@@ -493,10 +495,10 @@ textarea:focus {
  
 /*** colored background ***/
  .white-bg { background: #fff }
- .gray-bg { background: #faf9ff }
- .blue-bg { background: #4FC1F0}
- .default-bg { background: #50C1F0 }
- .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;}
+ .gray-bg { background: #140235 }
+ .blue-bg { background: #31199c}
+ .default-bg { background: #5b13bb }
+ .video-bg {background: rgba(41, 3, 112, 0) linear-gradient(to right, #6a0788 0%, #8b03ca 100%) repeat scroll 0 0;}
  .transparent-bg { background: transparent }
  
 /*** image background ***/
@@ -546,7 +548,7 @@ textarea:focus {
  
  
  .overlay-red::before {
-  background: rgba(247, 81, 96, 0.88) none repeat scroll 0 0;
+  background: rgba(145, 3, 14, 0.88) none repeat scroll 0 0;
 }
 .overlay-red::before, .overlay-blue-2::before {
   content: "";

@@ -112,12 +112,12 @@
 	  margin-left: 15px;
 	}
     .navbar {
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #6411eb 0%, #741abd 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #6411eb 0%, #741abd 100%) repeat scroll 0 0;
     box-shadow: 0 0 20px -10px #000;
 	}
     .navbar-toggle .icon-bar {
-        background-color: #fff;
+        background-color: rgb(12, 4, 27);
         height: 4px;
         width: 25px;
     }

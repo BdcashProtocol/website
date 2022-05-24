@@ -84,7 +84,7 @@
   display: none !important; }
 
 .mfp-preloader {
-  color: #CCC;
+  color: rgb(245, 239, 239);
   position: absolute;
   top: 50%;
   width: auto;
@@ -144,7 +144,7 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+  color: rgb(248, 246, 246); }
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {

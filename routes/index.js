@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { 
-  title: 'BDCash Protocol',
+  title: 'BDCashProtcol Ecosystem',
   description: ' - Home page'
   });
 });
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 /* GET team page */
 router.get('/team', function(req, res, next) {
 	res.render('team', { 
-	title: 'BDCash Protocol',
+	title: 'BDCashProtcol Ecosystem',
 	description: ' - Our Team and contributors'
 	});
   });
@@ -21,7 +21,7 @@ router.get('/team', function(req, res, next) {
  /* GET download page */
 router.get('/donwload', function(req, res, next) {
 	res.render('donwload', { 
-	title: 'BDCash Protocol',
+	title: 'BDCashProtcol Ecosystem',
 	description: ' - Donwloads your wallets app.'
 	});
   }); 
@@ -29,7 +29,7 @@ router.get('/donwload', function(req, res, next) {
 /* GET about page. */
 router.get('/about', function(req, res, next) {
   res.render('about', {
-	  title: 'BDCash Protocol',
+	  title: 'BDCashProtcol Ecosystem',
 	  description: ' - About project'
 	  });
 });
@@ -37,7 +37,7 @@ router.get('/about', function(req, res, next) {
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
-	  title: 'BDCash Protocol',
+	  title: 'BDCashProtcol Ecosystem',
 	  description: ' - Send your feedback or question'
 	  });
 });
@@ -45,7 +45,7 @@ router.get('/contact', function(req, res, next) {
 /* GET Roadmap page. */
 router.get('/roadmap', function(req, res, next) {
   res.render('roadmap', {
-	  title: 'BDCash Protocol',
+	  title: 'BDCashProtcol Ecosystem',
 	  description: ' - Check all goals future for project'
 	  });
 });
@@ -53,7 +53,7 @@ router.get('/roadmap', function(req, res, next) {
 /* GET Market page. */
 router.get('/markets', function(req, res, next) {
   res.render('markets', {
-	  title: 'BDCash Protocol',
+	  title: 'BDCashProtcol Ecosystem',
 	  description: ' - Get link to all markets bdcash'
 	  });
 });

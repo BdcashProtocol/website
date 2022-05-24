@@ -37,6 +37,10 @@
 /* ============= 1. IMPORT GOOGLE FONT ============= */
  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
+body{
+background-color: #180530;
+color: #ffffff;
+}
 /* ============= 2. HEADER AREA ============= */
 header {
   left: 0;
@@ -56,8 +60,8 @@ header {
     transition: all 0.5s ease 0s;
 }
 .navbar.navbar-fixed-top {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #bb17ec 0%, #200d25 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #bb17ec 0%, #200d25 100%) repeat scroll 0 0;
     box-shadow: 0 0 20px -10px #000;
     padding: 0;
 
@@ -77,11 +81,12 @@ header {
     width: 85%;
 }
 .navbar-nav li a {
-  color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
   padding: 20px;
   transition: all 0.3s ease 0s;
+
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > .active > a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -95,8 +100,8 @@ header {
   transition:.3s;
 }
 .navbar-nav li a.download-btn:hover {
-  background: #d3c015 none repeat scroll 0 0;
-  border-color: #d3c015;
+  background: #6715d3 none repeat scroll 0 0;
+  border-color: #6715d3;
   box-shadow: 0 0 30px 0 rgba(196, 146, 11, 0.1);
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
@@ -111,7 +116,7 @@ header {
   height: 100vh;
   z-index: 1;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .parallax {
   background-attachment: fixed;
@@ -130,12 +135,12 @@ header {
   height: 100%;
 }
 .slider h1 {
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
 .slider p {
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   font-size: 18px;
   margin: 0 0 35px;
   padding-right: 28%;
@@ -147,9 +152,9 @@ header {
   z-index: 3;
 }
 .hero-btn {
-  background: #cfb12c none repeat scroll 0 0;
-  border-radius: 4px #0000;
-  color: rgb(0, 0, 0);
+  background: #6a10e0 none repeat scroll 0 0;
+  border-radius: 4px rgba(95, 7, 155, 0);
+  color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -162,8 +167,8 @@ header {
   box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.1);
 }
 .hero-btn:hover, .about-content > .hero-btn:hover {
-  background-color: #d3c015;
-  color: rgb(0, 0, 0);
+  background-color: #2e0649;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .hero-text p.he-p {
@@ -200,7 +205,7 @@ header {
     right: 10px;
 }
 .background-area .owl-nav div:hover {
-    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
 }
 .image-1 {background-image: url("img/slider/4.png");}
 .slide-animation {
@@ -245,11 +250,11 @@ header {
   margin: 0 0 25px;
 }
 .about-content > .hero-btn {
-  background: #ad931e none repeat scroll 0 0;
+  background: #6207ca none repeat scroll 0 0;
   border-radius: 4px;
-  box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
-  -webkit-box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
-  -moz-box-shadow: 0 0 20px 0 rgba(185, 155, 17, 0.4);
+  box-shadow: 0 0 20px 0 rgba(109, 17, 185, 0.4);
+  -webkit-box-shadow: 0 0 20px 0 rgba(109, 17, 185, 0.4);
+  -moz-box-shadow: 0 0 20px 0 rgba(109, 17, 185, 0.4);
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -286,7 +291,7 @@ header {
   padding: 40px 0 35px;
   transition: all 0.3s ease 0s;
 }
-.awesome-feature:hover{background: #cfb12c none repeat scroll 0 0;}
+.awesome-feature:hover{background: #bb17ec none repeat scroll 0 0;}
 .awesome-feature-icon span {
     display: block;
     height: 60px;
@@ -296,8 +301,8 @@ header {
 	margin:0 auto;
 }
 .awesome-feature-icon span:after {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to top, #cfb12c 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #bb17ec 0%, #b362cc 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, #bb17ec 0%, #b362cc 100%) repeat scroll 0 0;
     border-radius: 60px;
     content: "";
     height: 100%;
@@ -308,9 +313,9 @@ header {
     z-index: 0;
 }
 .awesome-feature-icon i {
-    background-color: #f5f7fa;
+    background-color: #5919d1;
     border-radius: 60px;
-    color: #000000;
+    color: #fafafa;
     display: inline-block;
     font-size: 24px;
     height: calc(100% - 2px);
@@ -325,14 +330,14 @@ header {
     z-index: 1;
 }
 .awesome-feature:hover .awesome-feature-icon i {
-  background-color: #cfb12c;
+  background-color: #bb17ec;
   box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -webkit-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -moz-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   color: #fff;
 }
 .awesome-feature:hover .awesome-feature-icon span::after {
-  background: #cfb12c none repeat scroll 0 0;
+  background: #bb17ec none repeat scroll 0 0;
 }
 .awesome-feature-details {
   margin-top: 20px;
@@ -356,7 +361,7 @@ header {
 
 /* ============= 8. HOW WORK AREA ============= */
 .how-work-tab ul {
-  background: #fff none repeat scroll 0 0;
+  background: rgb(91, 13, 216) none repeat scroll 0 0;
   box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0.15);
@@ -368,14 +373,14 @@ header {
   width: 33.33%;
 }
 .how-work-tab ul li a {
-  color: #3e3e3e;
+  color: #f7f7f7;
   display: block;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
 .how-work-tab ul li.active a {
-  background:#cfb12c;
+  background:#bb17ec;
   color: #fff;
 }
 .how-work-tab .tab-content p {
@@ -398,12 +403,12 @@ header {
 
 /* ============= 10. DOWNLOAD BUTTON AREA ============= */
 .download-option-btn ul li a {
-  background: #fff none repeat scroll 0 0;
+  background: rgb(34, 7, 44) none repeat scroll 0 0;
   border-radius: 10px;
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
-  color: #3e3e3e;
+  color: #ffffff;
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
@@ -413,10 +418,10 @@ header {
   text-transform: capitalize;
   transition: all 0.3s ease 0s;
 }
-.download-option-btn ul li a i{color:#cfb12c;margin-right:5px;transition:.3s;}
+.download-option-btn ul li a i{color:#bb17ec;margin-right:5px;transition:.3s;}
 .download-option-btn ul li a:hover i,.download-option-btn ul li a.active:hover i{color:#fff;}
-.download-option-btn ul li a:hover,.download-option-btn ul li a.active:hover{background:#cfb12c;color:#fff;}
-.download-option-btn ul li a.active{background:#cfb12c;color:#fff;}
+.download-option-btn ul li a:hover,.download-option-btn ul li a.active:hover{background:#bb17ec;color:#fff;}
+.download-option-btn ul li a.active{background:#bb17ec;color:#fff;}
 .download-option-btn ul li a.active i{color:#fff;}
 
 /* ============= 11. PRICING AREA ============= */
@@ -432,14 +437,14 @@ header {
   letter-spacing: 2px;
 }
 .pricing-price > span {
-  color: #3e3e3e;
+  color: #ffffff;
   display: block;
   font-size: 50px;
   font-weight: 300;
   padding: 20px 0 22px;
 }
 .price-decs ul li {
-  color: #999999;
+  color: #c7c3c3;
   display: block;
   font-size: 16px;
   line-height: 38px;
@@ -461,10 +466,10 @@ header {
 .price-decs {
   padding-bottom: 40px;
 }
-.pricing-single:hover,.pricing-single.active{background:#cfb12c;color:#fff;}
+.pricing-single:hover,.pricing-single.active{background:#bb17ec;color:#fff;}
 .pricing-single:hover .pricing-price > span,.pricing-single:hover .price-decs ul li,.pricing-single:hover .price-titel h4{color:#fff;}
 .pricing-single.active .pricing-price > span,.pricing-single.active .price-decs ul li,.pricing-single.active .price-titel h4{color:#fff;}
-.pricing-single:hover .ordr-btn > a,.pricing-single.active .ordr-btn > a{background:#cfb12c;color:#fff;display:block;}
+.pricing-single:hover .ordr-btn > a,.pricing-single.active .ordr-btn > a{background:#bb17ec;color:#fff;display:block;}
 
 /* ============= 12. TESTIMONIAL AREA ============= */
 .testimonial-desc p {
@@ -506,7 +511,7 @@ header {
   border-radius:10px;
 }
 .team-overlay {
-  background: #cfb12c none repeat scroll 0 0;
+  background: #bb17ec none repeat scroll 0 0;
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
@@ -531,10 +536,10 @@ header {
 /* ============= 14. SUBCRIBE FORM AREA ============= */
 .subcribe-form input {
   background: transparent none repeat scroll 0 0;
-  border: 1px solid #cfb12c;
+  border: 1px solid #bb17ec;
   border-radius: 5px;
   box-shadow: none;
-  color: #444444;
+  color: #ffffff;
   font-size: 12px;
   font-weight: normal;
   height: 45px;
@@ -543,7 +548,7 @@ header {
   width: 30%;
 }
 .subcribe-form button {
-  background: #cfb12c none repeat scroll 0 0;
+  background: #bb17ec none repeat scroll 0 0;
   border: medium none;
   border-radius: 5px;
   color: #fff;
@@ -553,11 +558,11 @@ header {
   top: 0;
   width: 155px;
   transition:.3s;
-  box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
-  -moz-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
+  -moz-box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
 }
-.subcribe-form button:hover{background:#f39529;}
+.subcribe-form button:hover{background:#9905d3;}
 
 /* Mail Chimp */
 .mailchimp-alerts {margin-top: 15px;}
@@ -567,7 +572,7 @@ header {
 
 /* ============= 15. Contact Form Area ============= */
 .contact-form {
-  background: #fff none repeat scroll 0 0;
+  background: rgb(131, 62, 196) none repeat scroll 0 0;
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
@@ -595,11 +600,11 @@ header {
 .description textarea { height: 100px }
 .form-group  button { border: none }
 .btn-contact-bg {
-  background: #cfb12c none repeat scroll 0 0;
+  background: #bb17ec none repeat scroll 0 0;
   border-radius: 5px;
-  box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
-  -webkit-box-shadow: 0 0 20px 0px rgba(185, 155, 17, 0.4);
+  box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
+  -webkit-box-shadow: 0 0 20px 0px rgba(109, 17, 185, 0.4);
   color: #fff;
   display: inline-block;
   font-size: 15px;
@@ -610,7 +615,7 @@ header {
 }
 .btn-contact-bg:hover,
 .btn-contact-bg:focus {
-  background: #d3c015;
+  background: #a70dee;
   color: #fff;
 }
 #map { height: 530px; }
@@ -638,7 +643,7 @@ margin:0;
 }
 
 .conct-border {
-  border-bottom: 1px solid rgba(223, 178, 33, 0.9);
+  border-bottom: 1px solid rgba(131, 33, 223, 0.9);
   display: block;
   overflow: hidden;
 }
@@ -648,9 +653,9 @@ margin:0;
 
 /* ============= 17. Contact Social Area ============= */
 .contact-social ul li a {
-  background: #fff none repeat scroll 0 0;
+  background: rgb(33, 7, 61) none repeat scroll 0 0;
   border-radius: 100%;
-  color: #000000;
+  color: #fcf9f9;
   display: block;
   font-size: 15pt;
   height: 45px;
@@ -661,7 +666,7 @@ margin:0;
   width: 45px;
   margin: 0 12px;
 }
-.contact-social ul li a:hover{color:#fff;background:#cfb12c;}
+.contact-social ul li a:hover{color:#fff;background:#bb17ec;}
 .copyright-text p {
   color: #fff;
   font-size: 13px;
@@ -685,7 +690,7 @@ margin:0;
   color: #fff;
   transition:.4s;
 }
-.banner-video-btn .video-popup:hover{color:#3e3e3e;}
+.banner-video-btn .video-popup:hover{color:#dfdddd;}
 .banner-video-btn .video-popup i {
   float: left;
   font-size: 24px;
@@ -789,7 +794,7 @@ margin:0;
 
 /* ============= 21. ScrollUp ============= */
 #scrollUp {
-  background: #be7e1d none repeat scroll 0 0;
+  background: #9905d3 none repeat scroll 0 0;
   border-radius: 0px;
   bottom: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -819,7 +824,7 @@ margin:0;
     display: block;
     width: 2px;
     height: 100%;
-    background: #c6c6c6;
+    background: #141414;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -863,13 +868,13 @@ margin:0;
 }
 
 .main-timeline .icon:before {
-    background: #fff;
+    background: rgb(13, 3, 43);
     border: 2px solid #232323;
     left: -3px
 }
 
 .main-timeline .icon:after {
-    border: 2px solid #c6c6c6;
+    border: 2px solid #0a0227;
     left: 3px
 }
 
@@ -892,7 +897,7 @@ margin:0;
     content: "";
     width: 36.5%;
     height: 2px;
-    background: #c6c6c6;
+    background: #190135;
     margin: auto 0;
     position: absolute;
     top: 0;
@@ -924,13 +929,13 @@ margin:0;
 }
 
 .main-timeline .date-outer:before {
-    background: #fff;
-    border: 2px solid #232323;
+    background: rgb(29, 3, 90);
+    border: 2px solid #5f26a0;
     left: -6px
 }
 
 .main-timeline .date-outer:after {
-    border: 2px solid #c6c6c6;
+    border: 2px solid #370d4b;
     left: 6px
 }
 
@@ -959,7 +964,7 @@ margin:0;
     display: block;
     font-size: 30px;
     font-weight: 700;
-    color: #232323;
+    color: #ffffff;
     line-height: 36px
 }
 
@@ -1060,7 +1065,7 @@ margin:0;
 }
 
 .banner {
-  background: #a770ef;
-  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
-  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: #200d25;
+  background: -webkit-linear-gradient(to right, #a770ef, #200d25, #d29fdf);
+  background: linear-gradient(to right, #a770ef, #200d25, #d29fdf);
 }

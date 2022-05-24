@@ -15,7 +15,7 @@
             body: "", // the dialog body html
             footer: "", // the dialog footer html (mainly used for buttons)
             modalClass: "fade", // Additional css for ".modal", "fade" for fade effect
-            modalDialogClass: "", // Additional css for ".modal-dialog", like "modal-lg" or "modal-sm" for sizing
+            modalDialogClass: "modal-lg", // Additional css for ".modal-dialog", like "modal-lg" or "modal-sm" for sizing
             options: { // The Bootstrap modal options as described here: https://getbootstrap.com/docs/4.0/components/modal/#options
                 backdrop: 'static' // disallow closing on click in the background
             },
@@ -46,11 +46,11 @@
         this.element.setAttribute("role", "dialog")
         this.element.setAttribute("aria-labelledby", this.id)
         this.element.innerHTML = '<div class="modal-dialog ' + this.props.modalDialogClass + '" role="document">' +
-            '<div class="modal-content">' +
+            '<div class="modal-content gray-bg">' +
             '<div class="modal-header  bg-5">' +
             '<h3 class="modal-title text-light"></h3>' +
             '</div>' +
-            '<div class="modal-body"></div>' +
+            '<div class="modal-body gray-bg"></div>' +
             '<div class="modal-footer bg-4"></div>' +
             '</div>' +
             '</div>'
@@ -118,7 +118,7 @@
                 for (var key in props.buttons) {
                     // noinspection JSUnfilteredForInLoop
                     var buttonText = props.buttons[key]
-                    footer += '<button type="button" class="download-btn btn-lg" data-value="' + key + '" data-dismiss="modal">' + buttonText + '</button>'
+                    footer += '<a class="download-btn btn-lg" data-value="' + key + '" data-dismiss="modal">' + buttonText + '</a>'
                 }
                 props.footer = footer
             }
@@ -129,7 +129,7 @@
             return this.showModal(props)
         },
         showConfirm: function (props) {
-            props.footer = '<button class="download-btn btn-lg btn-false btn-cancel">' + props.textFalse + '</button><button class="download-btn btn-lg btn-true">' + props.textTrue + '</button>'
+            props.footer = '<a class="download-btn btn-lg btn-false btn-cancel">' + props.textFalse + '</a><a class="download-btn btn-lg btn-true">' + props.textTrue + '</a>'
             props.onCreate = function (modal) {
                 $(modal.element).on("click", ".btn", function (event) {
                     event.preventDefault()
