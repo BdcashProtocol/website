@@ -1,6 +1,6 @@
 # Website BDCashProtcol Ecosystem 
 
-<img src="https://raw.githubusercontent.com/BdcashProtocol/website/main/public/img/logo.png">
+<img src="https://raw.githubusercontent.com/BdcashProtocol/bdcash-mediakit/main/logo-bdcash/main.png">
 
 To install is easy and fast
 
@@ -16,6 +16,8 @@ Thanks all contributors.
 
 ## Donation:
 
-COntributors: 
+BDECO address: <b>BKMMjTatbQTZoCRRP7wDamqcMwVHiT4vX8</b>
+
+## Contributors: 
 
 Clone this repository after this, build changes and commit for revision.
