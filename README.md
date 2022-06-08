@@ -1,6 +1,6 @@
 # Website BDCashProtcol Ecosystem 
 
-<img src="https://raw.githubusercontent.com/BdcashProtocol/bdcash-mediakit/main/logo-bdcash/main.png">
+<img src="https://raw.githubusercontent.com/BdcashProtocol/bdcash-mediakit/main/brands/main.png">
 
 To install is easy and fast
 

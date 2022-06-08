@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
   title: 'BDCashProtcol Ecosystem',
-  description: ' - Home page'
+  description: 'Home page'
   });
 });
 
@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 router.get('/team', function(req, res, next) {
 	res.render('team', { 
 	title: 'BDCashProtcol Ecosystem',
-	description: ' - Our Team and contributors'
+	description: 'Our Team and contributors'
 	});
   });
 
@@ -22,7 +22,7 @@ router.get('/team', function(req, res, next) {
 router.get('/donwload', function(req, res, next) {
 	res.render('donwload', { 
 	title: 'BDCashProtcol Ecosystem',
-	description: ' - Donwloads your wallets app.'
+	description: 'Donwloads your wallets app.'
 	});
   }); 
 
@@ -30,7 +30,7 @@ router.get('/donwload', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('about', {
 	  title: 'BDCashProtcol Ecosystem',
-	  description: ' - About project'
+	  description: 'About project'
 	  });
 });
 
@@ -38,7 +38,7 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', {
 	  title: 'BDCashProtcol Ecosystem',
-	  description: ' - Send your feedback or question'
+	  description: 'Send your feedback or question'
 	  });
 });
 
@@ -46,7 +46,7 @@ router.get('/contact', function(req, res, next) {
 router.get('/roadmap', function(req, res, next) {
   res.render('roadmap', {
 	  title: 'BDCashProtcol Ecosystem',
-	  description: ' - Check all goals future for project'
+	  description: 'Check all goals future for project'
 	  });
 });
 
@@ -54,9 +54,25 @@ router.get('/roadmap', function(req, res, next) {
 router.get('/markets', function(req, res, next) {
   res.render('markets', {
 	  title: 'BDCashProtcol Ecosystem',
-	  description: ' - Get link to all markets bdcash'
+	  description: 'Get link to all markets bdcash'
 	  });
 });
+
+/* GET Market page. */
+router.get('/rewards', function(req, res, next) {
+	res.render('rewards', {
+		title: 'BDCashProtcol Ecosystem',
+		description: 'Get informations about scedules rewards'
+		});
+  });
+
+  /* GET Market page. */
+router.get('/insentives', function(req, res, next) {
+	res.render('insentives', {
+		title: 'BDCashProtcol Ecosystem',
+		description: 'Information about incentive program to investors'
+		});
+  });
 
 
 module.exports = router;

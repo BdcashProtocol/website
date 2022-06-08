@@ -27,6 +27,9 @@ app.use('/donwload', indexRouter);
 app.use('/team', indexRouter);
 app.use('/roadmap', indexRouter);
 app.use('/markets', indexRouter);
+app.use('/insentives', indexRouter);
+app.use('/partners', indexRouter);
+app.use('/rewards', indexRouter);
 app.use('/contact', indexRouter);
 //app.use('/users', usersRouter);
 
